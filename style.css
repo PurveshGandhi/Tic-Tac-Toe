@@ -1,0 +1,46 @@
+body {
+    width: 500px;
+    margin: auto;
+    font-family: 'Indie Flower', cursive;
+    background-color: #bb6605;
+    text-align: center;
+}
+
+table {
+  border-width: 1px;
+  text-align: center;
+  display: inline-block;
+  border: 1px solid gray;
+}
+
+h1 {
+    border-bottom: 1px solid black;
+    font-size: 53px;
+    text-align: center;
+    font-family: 'Indie Flower', cursive;
+}
+
+#message{
+  font-size: 25px;
+  color: black;
+  padding-bottom: 20px;
+}
+
+#restart{  
+  color: black;
+  padding-top: 20px;
+  display: block;
+  font-size: 25px;
+}
+
+.Square{
+  height: 80px;
+  width: 80px;
+  font-size: 40px;
+  text-align: center;
+  font-weight: bold;
+  border: 1px solid black;
+  border-right: 1px solid gray;
+  border-bottom: 1px solid gray;
+  background-color: floralwhite;
+}

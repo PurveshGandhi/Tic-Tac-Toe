@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link href='https://fonts.googleapis.com/css?family=Indie+Flower' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" type="text/css" href="../firstgame/style.css">
+    <title>Tic-Tac-Toe</title>
+</head>
+<body onload="startGame();">
+  <h1>knots and crosses</h1>
+  
+  <div id="message">message goes here </div>    
+    
+    <table class="board" id="1">
+      <tr>
+        <td class="Square" id="s1" onClick="nextMove(this)"></td>
+        <td class="Square" id="s2" onClick="nextMove(this)"></td>
+        <td class="Square" id="s3" onClick="nextMove(this)"></td>
+      </tr>
+      <tr>
+        <td class="Square" id="s4" onClick="nextMove(this)"></td>
+        <td class="Square" id="s5" onClick="nextMove(this)"></td>
+        <td class="Square" id="s6" onClick="nextMove(this)"></td>
+      </tr>
+      <tr>
+        <td class="Square" id="s7" onClick="nextMove(this)"></td>
+        <td class="Square" id="s8" onClick="nextMove(this)"></td>
+        <td class="Square" id="s9" onClick="nextMove(this)"></td>
+      </tr>
+    </table>
+    <a href="javascript:startGame();" id="restart">Start Game!</a>
+
+    <script src="app.js"></script>
+
+  </body>
+</html>
